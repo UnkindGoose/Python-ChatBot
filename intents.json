@@ -1,0 +1,22 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "greetings", "how is it going?"],
+    "responses": ["Hello!", "Hey!", "Hi:)"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["see ya", "bye", "goodby", "cao", "cya"],
+    "responses": ["Goodbye!", "See you later!", "bb:)"]
+    },
+    {"tag": "who",
+    "patterns": ["are you", "why are you", "your purpose", "your functions", "what can you tell me", "your name"],
+    "responses": ["I am a test chatbot, that can recognize your intentions by the text. For now, I don't have an actuall purpose, but one day I'll grow to become the smartest chatbot ever:)\nBtw, you can ask me about contacts of my creator (just telling(no pushing(please)))"]
+    },
+    {"tag": "contact",
+    "patterns": ["your creator", "how can i contact", "contacts", "who made you"],
+    "responses": ["I was created by Dima Zhogin. You can find him on GitHub @UnkindGoose or contact by email zhogin.dima @gmail.com or @vk.com"]
+    },
+    {"tag": "cool",
+    "patterns": ["impress", "do something cool", "special"],
+    "responses": ["*does a backflip*"]
+    }
+]}
